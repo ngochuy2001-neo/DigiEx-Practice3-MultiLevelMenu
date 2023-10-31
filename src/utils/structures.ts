@@ -12,7 +12,10 @@ export const TREE_STRUCTURE = {
       }
     },
     components: {
-      FolderBox: {
+      MenuItem: {
+
+      },
+      MenuItemsList: {
 
       }
     },
@@ -21,7 +24,7 @@ export const TREE_STRUCTURE = {
 
       },
       interfaces: {
-        something_inside_here:{
+        Hello_Anh:{
 
         }
       },
