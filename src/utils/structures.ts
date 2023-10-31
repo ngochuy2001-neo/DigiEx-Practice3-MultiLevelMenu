@@ -22,7 +22,7 @@ export const TREE_STRUCTURE = {
       },
       interfaces: {
         something_inside_here:{
-          
+
         }
       },
       structures:{

@@ -5,7 +5,6 @@ import MenuItemList from "./MenuItemsList";
 const MenuItem = ({itemTitle, itemBranch}: IMenuItem) =>{
 
   const [isHover, setIsHover]= useState<boolean>(false);
-  console.log(itemBranch);
   return (
     <div className="w-[150px] flex justify-center items-center h-[50px] border-2 border-gray-500" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
       {itemTitle}
